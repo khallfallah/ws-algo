@@ -1,0 +1,15 @@
+ALGORITHM algorithm_name
+VAR
+    ch:string;
+BEGIN
+FUNCTION palindrome(ch) : BOOLEAN
+
+BEGIN
+    if ch.length<=1 then
+    RETURN true
+    ELSE if (ch[1]==ch[longch(ch)])
+    RETURN palindrome(substring(ch ,1 ,longch-1)) ;
+    ELSE
+    RETURN false
+END
+END

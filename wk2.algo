@@ -1,23 +1,4 @@
-ALGORITHM somme vecteurs;
-const N=100;
-type tabEnt=tableau [1..N] de entier
-var v1 , v2,v3 :tabEnt; v1 , v2 ,v3 : tableau [1..N] de entier;
-i : entier;
-j:entier;
-Debut
-Ecrire('ecrire les elements de votre premier vecteur');
-pour i de 1 a N faire 
-lire (v1[i]);
-faire 
-Ecrire('ecrire les elements de votre deuxieme vecteur');
-pour j de 1 a N faire 
-lire (v2[j]);
-faire
-pou i et j de 1 a N faire 
-v3[i,j]=v1[i]+v2[j];
-faire ('ecrire la somme de deux vecteurs : ');
-fin pour 
-2 eme probleme
+
 Algorithm dot_product
 Vaiables
 Tableau V ( N ):reel

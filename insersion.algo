@@ -1,0 +1,15 @@
+algorithm tri_insertion
+VAR
+t : tab;
+i ,j,k:INTEGER;
+begin
+j←2
+for i de 1 à N do ;
+tem <== T[i]
+j<==i-1
+tant que (j>=0) and (T[j]>temp)
+T[j+1]<==T[j]
+j<== j-1
+end while
+T[j+1]<==temp
+end
